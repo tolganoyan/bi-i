@@ -1,0 +1,35 @@
+.main-container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+
+}
+
+.col {
+  flex: 1;
+  padding: 15px;
+  border: 3px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.image-container {
+  display: flex;
+
+}
+
+.image-container img {
+  height: 100%;
+  max-width: 50%;
+  object-fit: cover;
+  height: auto;
+  display: inline-block;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px; 
+  box-sizing: border-box;
+}
+
